@@ -1,0 +1,18 @@
+{
+  "name": "govalidate-lite",
+  "description": "GoValidate Lite: a free skill for checking CSV and delimited files locally.",
+  "owner": {
+    "name": "GoValidate",
+    "url": "https://govalidate.ai/"
+  },
+  "plugins": [
+    {
+      "name": "govalidate-lite",
+      "source": "./",
+      "description": "Check, clean, or compare CSV and delimited files with local Python helpers and clear rules.",
+      "version": "1.3.0",
+      "license": "Apache-2.0",
+      "homepage": "https://govalidate.ai/skill/"
+    }
+  ]
+}
