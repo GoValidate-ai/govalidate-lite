@@ -1,13 +1,20 @@
 {
   "name": "govalidate-lite",
-  "version": "1.3.0",
-  "description": "Check, clean, or compare CSV and delimited files with local Python helpers and clear rules. Files stay on your computer.",
+  "version": "1.3.1",
+  "displayName": "GoValidate Lite",
+  "description": "Check, clean, or compare CSV and delimited files with clear rules and read-only Python helpers. GoValidate never receives your files.",
   "author": {
     "name": "GoValidate",
-    "url": "https://govalidate.ai/"
+    "url": "https://govalidate.ai/",
+    "email": "support@govalidate.ai"
   },
   "homepage": "https://govalidate.ai/skill/",
   "repository": "https://github.com/GoValidate-ai/govalidate-lite",
   "license": "Apache-2.0",
-  "keywords": ["csv", "data-validation", "agent-skill"]
+  "privacyPolicyUrl": "https://govalidate.ai/privacy/",
+  "termsOfServiceUrl": "https://govalidate.ai/terms/",
+  "documentationUrl": "https://govalidate.ai/skill/",
+  "supportUrl": "https://github.com/GoValidate-ai/govalidate-lite/issues",
+  "icon": "./icon.png",
+  "keywords": ["csv", "data-validation", "data-quality", "data-cleaning", "clean-data", "reconcile", "tsv", "delimited-files", "profiling", "agent-skill"]
 }

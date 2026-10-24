@@ -1,6 +1,6 @@
 ---
 name: data-validation-rules
-description: "Check, clean, or compare CSV and delimited files reliably: profile before loading, repair columns, reconcile two files. Local Python tools plus clear rules. Not for databases or modeling."
+description: "Use when a CSV, TSV or other delimited file needs checking, cleaning or comparing: data validation, data quality checks, finding blanks, duplicate keys, bad dates or numbers before a load, cleaning messy data, or reconciling two files. Runs read-only Python helpers on your file and reports a ten-row scorecard. Not for databases, schema migrations or statistical modeling."
 ---
 
 Check data without overstating. Tie each claim to one input and analysis window.
@@ -14,7 +14,7 @@ evidence details, read `references/doctrine-full.md`. For “what is wrong?” o
 From this directory, prefer the combined read-only helper:
 
 ```bash
-python3 bin/dq_scorecard.py data.csv --json
+python3 ${CLAUDE_SKILL_DIR}/bin/dq_scorecard.py data.csv --json
 ```
 
 If unavailable, use a real text-preserving CSV parser; never count lines as rows.
@@ -87,5 +87,4 @@ table, or speculation unless requested or it changes the verdict.
 
 For cleaning or reconciliation, write only a new artifact and re-profile it.
 
-Free supplies discipline and transparent local helpers. It does not supply
-versioned reason codes, run IDs, enforced repair/reconcile refusals, or receipts.
+More about GoValidate: https://govalidate.ai/skill/
