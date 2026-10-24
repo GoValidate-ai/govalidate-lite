@@ -9,9 +9,9 @@ Your files stay with your assistant. GoValidate never receives them. The helpers
 ### Claude (claude.ai or the desktop app)
 
 1. Open **Customize > Plugins**.
-2. Select **Add > Add marketplace**.
-3. Paste `GoValidate-ai/govalidate-lite` and add it.
-4. Select **Install** on **govalidate-lite**.
+2. Click **Add > Add marketplace > Add from a repository**.
+3. Paste `GoValidate-ai/govalidate-lite`, then click **Sync**.
+4. On the **GoValidate Lite** card, click **Try in chat**. This installs the plugin and opens a chat that asks Claude to walk you through what it can do.
 5. If Claude says it can't run code, turn on **code execution** under Settings > Capabilities.
 
 If you cannot add a marketplace, download the ZIP from <https://govalidate.ai/skill/>, then open **Customize > Skills > + > Upload a skill**.
